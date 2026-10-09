@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+asphaleia.db
+.DS_Store
+face_outputs/inconnus/*.jpg

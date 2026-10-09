@@ -1,0 +1,7 @@
+
+-------------------------------alerte temperature
+curl -X POST http://localhost:8000/api/sensors -H "Content-Type: application/json" -d '{"temperature":45,"gas_ppm":800,"presence":true}'
+---------------------------------alerte gaz-------------------------------
+curl -X POST http://localhost:8000/api/sensors -H "Content-Type: application/json" -d '{"temperature":25,"gas_ppm":1000,"presence":false}'
+--------------------------------alerte presence-------------------------
+curl -X POST http://localhost:8000/api/sensors -H "Content-Type: application/json" -d '{"temperature":25,"gas_ppm":100,"presence":true}'
